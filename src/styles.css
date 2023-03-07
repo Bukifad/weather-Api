@@ -1,0 +1,65 @@
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.wrapper {
+  max-width: 600px;
+  border: 1px solid gray;
+  margin: 30px auto;
+  padding: 50px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+#temperatureElement {
+  font-size: 40px;
+}
+img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -20px;
+}
+
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
