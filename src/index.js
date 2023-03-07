@@ -55,7 +55,6 @@ function search(city) {
 
 function displayWeather(event) {
   event.preventDefault();
-
   let city = document.querySelector("#text-input");
   // console.log(city);
   search(city.value);
