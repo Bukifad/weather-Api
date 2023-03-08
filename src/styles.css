@@ -25,7 +25,7 @@ li:first-letter {
 }
 
 .wrapper {
-  max-width: 600px;
+  max-width: 700px;
   border: 1px solid gray;
   margin: 30px auto;
   padding: 50px;
@@ -62,4 +62,24 @@ strong {
 
 .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.weather-days {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-temp-min {
+  opacity: 0.5;
+}
+
+.weather-temp {
+  font-size: 13px;
 }
